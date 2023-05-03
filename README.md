@@ -139,19 +139,19 @@ This repository is used for automated building of [OpenSCADA](http://oscada.org)
         <tr>
             <td rowspan=4>Special</td>
             <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibComplex1">FLibComplex1</a></td>
-            <td><ul><li>[ ] </li></ul></td>
+            <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
             <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibMath">FLibMath</a></td>
-            <td><ul><li>[ ] </li></ul></td>
+            <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
             <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibSYS">FLibSYS</a></td>
-            <td><ul><li>[ ] </li></ul></td>
+            <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
             <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/SystemTests">SystemTests</a></td>
-            <td><ul><li>[x] </li></ul></td>
+            <td><ul><li>[ ] </li></ul></td>
         </tr>
     </tbody>
 </table>
