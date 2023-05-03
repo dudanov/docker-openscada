@@ -44,7 +44,7 @@ $ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_p
         <tr>
             <th align="center">Subsystem</th>
             <th align="center">Module</th>
-            <th align="center">Type</th>
+            <th align="center">Status</th>
         </tr>
     </thead>
     <tbody align="center">
