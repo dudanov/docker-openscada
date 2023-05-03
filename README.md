@@ -11,43 +11,43 @@ This repository is used for automated building of [OpenSCADA](http://oscada.org)
 ### Included modules
 
 1. DB
-   * [SQLite](http://oscada.org/wiki/Special:MyLanguage/Modules/SQLite)
    * [DBGate](http://oscada.org/wiki/Special:MyLanguage/Modules/DBGate)
    * [LDAP](http://oscada.org/wiki/Special:MyLanguage/Modules/LDAP)
    * [MySQL](http://oscada.org/wiki/Special:MyLanguage/Modules/MySQL)
    * [PostgreSQL](http://oscada.org/wiki/Special:MyLanguage/Modules/PostgreSQL)
+   * [SQLite](http://oscada.org/wiki/Special:MyLanguage/Modules/SQLite)
 2. Transports
    * [Sockets](http://oscada.org/wiki/Special:MyLanguage/Modules/Sockets)
    * [SSL](http://oscada.org/wiki/Special:MyLanguage/Modules/SSL)
 3. Transport protocols
-   * [SelfSystem](http://oscada.org/wiki/Special:MyLanguage/Modules/SelfSystem)
+   * [HTTP](http://oscada.org/wiki/Special:MyLanguage/Modules/HTTP)
    * [ModBus](http://oscada.org/wiki/Special:MyLanguage/Modules/ModBus)
    * [OPC_UA](http://oscada.org/wiki/Special:MyLanguage/Modules/OPC_UA)
+   * [SelfSystem](http://oscada.org/wiki/Special:MyLanguage/Modules/SelfSystem)
    * [UserProtocol](http://oscada.org/wiki/Special:MyLanguage/Modules/UserProtocol)
-   * [HTTP](http://oscada.org/wiki/Special:MyLanguage/Modules/HTTP)
 4. DAQ
-   * [JavaLikeCalc](http://oscada.org/wiki/Special:MyLanguage/Modules/JavaLikeCalc)
-   * [LogicLev](http://oscada.org/wiki/Special:MyLanguage/Modules/LogicLev)
    * [BlockCalc](http://oscada.org/wiki/Special:MyLanguage/Modules/BlockCalc)
    * [DAQGate](http://oscada.org/wiki/Special:MyLanguage/Modules/DAQGate)
-   * [System](http://oscada.org/wiki/Special:MyLanguage/Modules/System)
+   * [DCON](http://oscada.org/wiki/Special:MyLanguage/Modules/DCON)
+   * [JavaLikeCalc](http://oscada.org/wiki/Special:MyLanguage/Modules/JavaLikeCalc)
+   * [LogicLev](http://oscada.org/wiki/Special:MyLanguage/Modules/LogicLev)
    * [ModBus](http://oscada.org/wiki/Special:MyLanguage/Modules/ModBus)
    * [OPC_UA](http://oscada.org/wiki/Special:MyLanguage/Modules/OPC_UA)
-   * [SNMP](http://oscada.org/wiki/Special:MyLanguage/Modules/SNMP)
-   * [DCON](http://oscada.org/wiki/Special:MyLanguage/Modules/DCON)
    * [Siemens](http://oscada.org/wiki/Special:MyLanguage/Modules/Siemens)
+   * [SNMP](http://oscada.org/wiki/Special:MyLanguage/Modules/SNMP)
+   * [System](http://oscada.org/wiki/Special:MyLanguage/Modules/System)
 5. Archives-History
-   * [FSArch](http://oscada.org/wiki/Special:MyLanguage/Modules/FSArch)
    * [DBArch](http://oscada.org/wiki/Special:MyLanguage/Modules/DBArch)
+   * [FSArch](http://oscada.org/wiki/Special:MyLanguage/Modules/FSArch)
 6. User interfaces
    * [VCAEngine](http://oscada.org/wiki/Special:MyLanguage/Modules/VCAEngine)
-   * [WebVision](http://oscada.org/wiki/Special:MyLanguage/Modules/WebVision)
    * [WebCfgD](http://oscada.org/wiki/Special:MyLanguage/Modules/WebCfgD)
    * [WebUser](http://oscada.org/wiki/Special:MyLanguage/Modules/WebUser)
+   * [WebVision](http://oscada.org/wiki/Special:MyLanguage/Modules/WebVision)
 7. Specials
    * [FLibComplex1](http://oscada.org/wiki/Special:MyLanguage/Modules/FLibComplex1)
-   * [FLibSYS](http://oscada.org/wiki/Special:MyLanguage/Modules/FLibSYS)
    * [FLibMath](http://oscada.org/wiki/Special:MyLanguage/Modules/FLibMath)
+   * [FLibSYS](http://oscada.org/wiki/Special:MyLanguage/Modules/FLibSYS)
    * [SystemTests](http://oscada.org/wiki/Special:MyLanguage/Modules/SystemTests)
 
 ## Image
