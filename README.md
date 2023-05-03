@@ -8,6 +8,36 @@
 
 This repository is used for automated building of [OpenSCADA](http://oscada.org) minimal docker image.
 
+## Image
+
+Supported Docker registries:
+- Official Docker Hub: [dudanov/openscada](https://hub.docker.com/r/dudanov/openscada)
+- GitHub Containers Registry: [ghcr.io/dudanov/openscada](https://github.com/users/dudanov/packages/container/package/openscada)
+
+Following platforms for this image are available:
+- linux/amd64
+- linux/arm/v7
+- linux/arm64
+
+Pulling latest images from Docker Hub:
+```console
+$ docker pull dudanov/openscada:latest
+```
+or from GitHub Containers Registry:
+```console
+$ docker pull ghcr.io/dudanov/openscada:latest
+```
+
+Example run command (start container `srv01-scada` with hostname `srv01` and project in `oscada_projects_volume/srv01` directory):
+```console
+$ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_projects_volume:/stations -p 6502:6502 dudanov/openscada:latest
+```
+
+## Environment variables
+
+* `LANG`: Language (default: `ru_RU.UTF-8`)
+* `TZ`: The timezone assigned to the container (default: `Europe/Samara`)
+
 ### Included modules
 <table>
     <thead align="center">
@@ -156,32 +186,3 @@ This repository is used for automated building of [OpenSCADA](http://oscada.org)
     </tbody>
 </table>
 
-## Image
-
-Supported Docker registries:
-- Official Docker Hub: [dudanov/openscada](https://hub.docker.com/r/dudanov/openscada)
-- GitHub Containers Registry: [ghcr.io/dudanov/openscada](https://github.com/users/dudanov/packages/container/package/openscada)
-
-Following platforms for this image are available:
-- linux/amd64
-- linux/arm/v7
-- linux/arm64
-
-Pulling latest images from Docker Hub:
-```console
-$ docker pull dudanov/openscada:latest
-```
-or from GitHub Containers Registry:
-```console
-$ docker pull ghcr.io/dudanov/openscada:latest
-```
-
-Example run command (start container `srv01-scada` with hostname `srv01` and project in `oscada_projects_volume/srv01` directory):
-```console
-$ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_projects_volume:/stations -p 6502:6502 dudanov/openscada:latest
-```
-
-## Environment variables
-
-* `LANG`: Language (default: `ru_RU.UTF-8`)
-* `TZ`: The timezone assigned to the container (default: `Europe/Samara`)
