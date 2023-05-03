@@ -50,7 +50,7 @@ $ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_p
     <tbody align="center">
         <tr>
             <td rowspan=5>BD</td>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/DBGate">DBGate</a></td>
+            <td><a title="Allows to locate databases of the remote OpenSCADA stations to local ones." href="http://oscada.org/wiki/Special:MyLanguage/Modules/DBGate">DBGate</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
