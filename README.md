@@ -54,133 +54,133 @@ $ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_p
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/LDAP">LDAP</a></td>
+            <td><a title="Provides support of directories by LDAP." href="http://oscada.org/wiki/Special:MyLanguage/Modules/LDAP">LDAP</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/MySQL">MySQL</a></td>
+            <td><a title="Provides support of the DBMS MySQL." href="http://oscada.org/wiki/Special:MyLanguage/Modules/MySQL">MySQL</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/PostgreSQL">PostgreSQL</a></td>
+            <td><a title="Provides support of the DBMS PostgreSQL." href="http://oscada.org/wiki/Special:MyLanguage/Modules/PostgreSQL">PostgreSQL</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/SQLite">SQLite</a></td>
+            <td><a title="Provides support of the BD SQLite." href="http://oscada.org/wiki/Special:MyLanguage/Modules/SQLite">SQLite</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
             <td rowspan=2>Transport</td>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/Sockets">Sockets</a></td>
+            <td><a title="Provides sockets based transport. Support network and UNIX sockets. Network socket supports TCP, UDP and RAWCAN protocols." href="http://oscada.org/wiki/Special:MyLanguage/Modules/Sockets">Sockets</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/SSL">SSL</a></td>
+            <td><a title="Provides transport based on the secure sockets layer. OpenSSL is used and SSLv3, TLSv1, TLSv1.1, TLSv1.2, DTLSv1, DTLSv1_2 are supported." href="http://oscada.org/wiki/Special:MyLanguage/Modules/SSL">SSL</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
             <td rowspan=5>Protocol</td>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/HTTP">HTTP</a></td>
+            <td><a title="Provides support for the HTTP protocol for WWW-based user interfaces." href="http://oscada.org/wiki/Special:MyLanguage/Modules/HTTP">HTTP</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/ModBus">ModBus</a></td>
+            <td><a title="Provides implementation of the ModBus protocols. ModBus/TCP, ModBus/RTU and ModBus/ASCII protocols are supported." href="http://oscada.org/wiki/Special:MyLanguage/Modules/ModBus">ModBus</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/OPC_UA">OPC_UA</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/OPC_UA">OPC_UA</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/SelfSystem">SelfSystem</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/SelfSystem">SelfSystem</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/UserProtocol">UserProtocol</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/UserProtocol">UserProtocol</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
             <td rowspan=10>DAQ</td>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/BlockCalc">BlockCalc</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/BlockCalc">BlockCalc</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/DAQGate">DAQGate</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/DAQGate">DAQGate</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/DCON">DCON</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/DCON">DCON</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/JavaLikeCalc">JavaLikeCalc</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/JavaLikeCalc">JavaLikeCalc</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/LogicLev">LogicLev</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/LogicLev">LogicLev</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/ModBus">ModBus</a></td>
+            <td><a title="Provides implementation of the ModBus protocols. ModBus/TCP, ModBus/RTU and ModBus/ASCII protocols are supported." href="http://oscada.org/wiki/Special:MyLanguage/Modules/ModBus">ModBus</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/OPC_UA">OPC_UA</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/OPC_UA">OPC_UA</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/Siemens">Siemens</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/Siemens">Siemens</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/SNMP">SNMP</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/SNMP">SNMP</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/System">System</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/System">System</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
             <td rowspan=2>Archive</td>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/DBArch">DBArch</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/DBArch">DBArch</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FSArch">FSArch</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/FSArch">FSArch</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
             <td rowspan=4>UI</td>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/VCAEngine">VCAEngine</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/VCAEngine">VCAEngine</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/WebCfgD">WebCfgD</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/WebCfgD">WebCfgD</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/WebUser">WebUser</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/WebUser">WebUser</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/WebVision">WebVision</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/WebVision">WebVision</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
             <td rowspan=4>Special</td>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibComplex1">FLibComplex1</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibComplex1">FLibComplex1</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibMath">FLibMath</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibMath">FLibMath</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibSYS">FLibSYS</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibSYS">FLibSYS</a></td>
             <td><ul><li>[x] </li></ul></td>
         </tr>
         <tr>
-            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/SystemTests">SystemTests</a></td>
+            <td><a title="" href="http://oscada.org/wiki/Special:MyLanguage/Modules/SystemTests">SystemTests</a></td>
             <td><ul><li>[ ] </li></ul></td>
         </tr>
     </tbody>
