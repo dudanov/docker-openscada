@@ -60,7 +60,7 @@ $ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_p
         <tr>
             <td rowspan=5>BD</td>
             <td><a title="Allows to locate databases of the remote OpenSCADA stations to local ones." href="http://oscada.org/wiki/Special:MyLanguage/Modules/DBGate">DBGate</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td><a title="Provides support of directories by LDAP." href="http://oscada.org/wiki/Special:MyLanguage/Modules/LDAP">LDAP</a></td>
@@ -76,7 +76,7 @@ $ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_p
         </tr>
         <tr>
             <td><a title="Provides support of the BD SQLite." href="http://oscada.org/wiki/Special:MyLanguage/Modules/SQLite">SQLite</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td rowspan=10>DAQ</td>
@@ -85,7 +85,7 @@ $ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_p
         </tr>
         <tr>
             <td><a title="Allows to locate data sources of the remote OpenSCADA stations to local ones." href="http://oscada.org/wiki/Special:MyLanguage/Modules/DAQGate">DAQGate</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td><a title="Provides an implementation of DCON-client protocol. Supports I-7000 DCON protocol." href="http://oscada.org/wiki/Special:MyLanguage/Modules/DCON">DCON</a></td>
@@ -93,11 +93,11 @@ $ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_p
         </tr>
         <tr>
             <td><a title="Provides a calculator and libraries engine on the Java-like language. The user can create and modify functions and their libraries." href="http://oscada.org/wiki/Special:MyLanguage/Modules/JavaLikeCalc">JavaLikeCalc</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td><a title="Provides the pure logical level of the DAQ parameters." href="http://oscada.org/wiki/Special:MyLanguage/Modules/LogicLev">LogicLev</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td><a title="Provides implementation of the ModBus protocols. ModBus/TCP, ModBus/RTU and ModBus/ASCII protocols are supported." href="http://oscada.org/wiki/Special:MyLanguage/Modules/ModBus">ModBus</a></td>
@@ -134,24 +134,24 @@ $ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_p
         </tr>
         <tr>
             <td><a title="Provides own OpenSCADA protocol based at XML and the control interface of OpenSCADA." href="http://oscada.org/wiki/Special:MyLanguage/Modules/SelfSystem">SelfSystem</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td><a title="Provides for creating your own user protocols on internal OpenSCADA language." href="http://oscada.org/wiki/Special:MyLanguage/Modules/UserProtocol">UserProtocol</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td rowspan=4>Special</td>
             <td><a title="Provides a library of the functions of compatibility with SCADA Complex 1 of the firm DIYA Ltd." href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibComplex1">FLibComplex1</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td><a title="Provides a library of the standard mathematical functions." href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibMath">FLibMath</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td><a title="Provides a library of the system functions of the user programming area of OpenSCADA." href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibSYS">FLibSYS</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td><a title="Provides the group of tests to OpenSCADA and its modules." href="http://oscada.org/wiki/Special:MyLanguage/Modules/SystemTests">SystemTests</a></td>
@@ -160,11 +160,11 @@ $ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_p
         <tr>
             <td rowspan=2>Transport</td>
             <td><a title="Provides sockets based transport. Support network and UNIX sockets. Network socket supports TCP, UDP and RAWCAN protocols." href="http://oscada.org/wiki/Special:MyLanguage/Modules/Sockets">Sockets</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td><a title="Provides transport based on the secure sockets layer. OpenSSL is used and SSLv3, TLSv1, TLSv1.1, TLSv1.2, DTLSv1, DTLSv1_2 are supported." href="http://oscada.org/wiki/Special:MyLanguage/Modules/SSL">SSL</a></td>
-            <td>Y</td>
+            <td>Yes</td>
         </tr>
         <tr>
             <td rowspan=4>UI</td>
