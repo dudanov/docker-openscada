@@ -67,35 +67,94 @@ This repository is used for automated building of [OpenSCADA](http://oscada.org)
         </tr>
         <tr>
             <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/UserProtocol">UserProtocol</a></td>
+            <td><ul><li>[x] </li></ul></td>
+        </tr>
+        <tr>
+            <td rowspan=10>DAQ</td>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/BlockCalc">BlockCalc</a></td>
             <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/DAQGate">DAQGate</a></td>
+            <td><ul><li>[x] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/DCON">DCON</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/JavaLikeCalc">JavaLikeCalc</a></td>
+            <td><ul><li>[x] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/LogicLev">LogicLev</a></td>
+            <td><ul><li>[x] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/ModBus">ModBus</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/OPC_UA">OPC_UA</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/Siemens">Siemens</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/SNMP">SNMP</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/System">System</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td rowspan=2>Archive</td>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/DBArch">DBArch</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FSArch">FSArch</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td rowspan=4>UI</td>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/VCAEngine">VCAEngine</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/WebCfgD">WebCfgD</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/WebUser">WebUser</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/WebVision">WebVision</a></td>
+            <td><ul><li>[x] </li></ul></td>
+        </tr>
+        <tr>
+            <td rowspan=4>Special</td>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibComplex1">FLibComplex1</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibMath">FLibMath</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/FLibSYS">FLibSYS</a></td>
+            <td><ul><li>[ ] </li></ul></td>
+        </tr>
+        <tr>
+            <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/SystemTests">SystemTests</a></td>
+            <td><ul><li>[x] </li></ul></td>
         </tr>
     </tbody>
 </table>
-
-4. DAQ
-   * [BlockCalc](http://oscada.org/wiki/Special:MyLanguage/Modules/BlockCalc)
-   * [DAQGate](http://oscada.org/wiki/Special:MyLanguage/Modules/DAQGate)
-   * [DCON](http://oscada.org/wiki/Special:MyLanguage/Modules/DCON)
-   * [JavaLikeCalc](http://oscada.org/wiki/Special:MyLanguage/Modules/JavaLikeCalc)
-   * [LogicLev](http://oscada.org/wiki/Special:MyLanguage/Modules/LogicLev)
-   * [ModBus](http://oscada.org/wiki/Special:MyLanguage/Modules/ModBus)
-   * [OPC_UA](http://oscada.org/wiki/Special:MyLanguage/Modules/OPC_UA)
-   * [Siemens](http://oscada.org/wiki/Special:MyLanguage/Modules/Siemens)
-   * [SNMP](http://oscada.org/wiki/Special:MyLanguage/Modules/SNMP)
-   * [System](http://oscada.org/wiki/Special:MyLanguage/Modules/System)
-5. Archives-History
-   * [DBArch](http://oscada.org/wiki/Special:MyLanguage/Modules/DBArch)
-   * [FSArch](http://oscada.org/wiki/Special:MyLanguage/Modules/FSArch)
-6. User interfaces
-   * [VCAEngine](http://oscada.org/wiki/Special:MyLanguage/Modules/VCAEngine)
-   * [WebCfgD](http://oscada.org/wiki/Special:MyLanguage/Modules/WebCfgD)
-   * [WebUser](http://oscada.org/wiki/Special:MyLanguage/Modules/WebUser)
-   * [WebVision](http://oscada.org/wiki/Special:MyLanguage/Modules/WebVision)
-7. Specials
-   * [FLibComplex1](http://oscada.org/wiki/Special:MyLanguage/Modules/FLibComplex1)
-   * [FLibMath](http://oscada.org/wiki/Special:MyLanguage/Modules/FLibMath)
-   * [FLibSYS](http://oscada.org/wiki/Special:MyLanguage/Modules/FLibSYS)
-   * [SystemTests](http://oscada.org/wiki/Special:MyLanguage/Modules/SystemTests)
 
 ## Image
 
