@@ -134,7 +134,7 @@ This repository is used for automated building of [OpenSCADA](http://oscada.org)
         </tr>
         <tr>
             <td><a href="http://oscada.org/wiki/Special:MyLanguage/Modules/WebVision">WebVision</a></td>
-            <td><ul><li>[x] </li></ul></td>
+            <td><ul><li>[ ] </li></ul></td>
         </tr>
         <tr>
             <td rowspan=4>Special</td>
