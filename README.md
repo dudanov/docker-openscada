@@ -11,8 +11,8 @@ This repository is used for automated building of [OpenSCADA](http://oscada.org)
 ## Image
 
 Supported Docker registries:
-- Official Docker Hub: [dudanov/openscada](https://hub.docker.com/r/dudanov/openscada)
-- GitHub Containers Registry: [ghcr.io/dudanov/openscada](https://github.com/users/dudanov/packages/container/package/openscada)
+- Docker Hub: [dudanov/openscada](https://hub.docker.com/r/dudanov/openscada)
+- GitHub Containers: [ghcr.io/dudanov/openscada](https://github.com/users/dudanov/packages/container/package/openscada)
 
 Following platforms for this image are available:
 - linux/amd64
