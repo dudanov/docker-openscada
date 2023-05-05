@@ -124,7 +124,7 @@ RUN apk --no-cache add \
         --enable-FSArch \
         --enable-DBArch \
         --enable-Sockets=incl \
-        --disable-Serial \
+        --enable-Serial=incl \
         --enable-SSL=incl \
         --enable-SelfSystem=incl \
         --enable-UserProtocol=incl \
@@ -173,7 +173,6 @@ RUN apk --no-cache add \
         DAQ.ICP_DAS.png \
         DAQ.SMH2Gi.png \
         DAQ.SoundCard.png \
-        Transport.Serial.png \
         UI.QTCfg.png \
         UI.QTStarter.png \
         UI.Vision.png \
