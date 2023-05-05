@@ -158,7 +158,11 @@ $ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_p
             <td>M</td>
         </tr>
         <tr>
-            <td rowspan=2>Transport</td>
+            <td rowspan=3>Transport</td>
+            <td><a title="Provides transport based on the serial interfaces. It is used for data exchanging via the serial interfaces of the type RS232, RS485, GSM and similar." href="http://oscada.org/wiki/Special:MyLanguage/Modules/Serial">Serial</a></td>
+            <td>*</td>
+        </tr>
+        <tr>
             <td><a title="Provides sockets based transport. Support network and UNIX sockets. Network socket supports TCP, UDP and RAWCAN protocols." href="http://oscada.org/wiki/Special:MyLanguage/Modules/Sockets">Sockets</a></td>
             <td>*</td>
         </tr>
