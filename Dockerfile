@@ -1,7 +1,7 @@
 FROM alpine AS builder
 
 #ARG CFLAGS="-g -D__MUSL__"
-ARG CFLAGS="-Os -DNODEBUG -D__MUSL__ -fpic -ffunction-sections -Wl,--gc-sections -fno-asynchronous-unwind-tables -Wl,--strip-all"
+ARG CFLAGS="-Os -DNODEBUG -fpic -ffunction-sections -Wl,--gc-sections -fno-asynchronous-unwind-tables -Wl,--strip-all"
 ARG CPPFLAGS=${CFLAGS}
 ARG CXXFLAGS=${CFLAGS}
 
@@ -70,19 +70,19 @@ RUN apk --no-cache add \
     done; \
     # Patching OpenSCADA for build with musl LibC
     cd /tmp/openscada \
-    && find . -name ieee754.h | while read fn; do \
-        sed \
-            -e 's/^__BEGIN_DECLS$/#ifdef __cplusplus\nextern "C" {\n#endif/g' \
-            -e 's/^__END_DECLS$/#ifdef __cplusplus\n}\n#endif/g' \
-            -i $fn; \
-    done; \
-    sed -e '/^#include <ldap\.h>$/i #include <sys/time.h>' -i ./src/moduls/bd/LDAP/mod_ldap.cpp; \
-    sed -e '/^#include <stdint\.h>$/a #include <sys/types.h>' -i ./src/tsys.h; \
-    sed -e '/optDescr();/{n;x;d;};x;1d;p;${x;p;}' -n -i ./src/moduls/daq/FT3/FT3_prt.h; \
-    sed '/^#if !__GLIBC_PREREQ(2,4)$/ s/$/ || __MUSL__/' -i ./src/resalloc.h; \
-    sed '/^#if !__GLIBC_PREREQ(2,4)$/ s/$/ || __MUSL__/' -i ./src/resalloc.cpp; \
+    #&& find . -name ieee754.h | while read fn; do \
+    #    sed \
+    #        -e 's/^__BEGIN_DECLS$/#ifdef __cplusplus\nextern "C" {\n#endif/g' \
+    #        -e 's/^__END_DECLS$/#ifdef __cplusplus\n}\n#endif/g' \
+    #        -i $fn; \
+    #done; \
+    #sed -e '/^#include <ldap\.h>$/i #include <sys/time.h>' -i ./src/moduls/bd/LDAP/mod_ldap.cpp; \
+    #sed -e '/^#include <stdint\.h>$/a #include <sys/types.h>' -i ./src/tsys.h; \
+    #sed -e '/optDescr();/{n;x;d;};x;1d;p;${x;p;}' -n -i ./src/moduls/daq/FT3/FT3_prt.h; \
+    #sed '/^#if !__GLIBC_PREREQ(2,4)$/ s/$/ || __MUSL__/' -i ./src/resalloc.h; \
+    #sed '/^#if !__GLIBC_PREREQ(2,4)$/ s/$/ || __MUSL__/' -i ./src/resalloc.cpp; \
     # Building and installing OpenSCADA
-    ./configure \
+    && ./configure \
         --prefix=/app \
         --bindir=/app/bin \
         --libdir=/app/lib \
