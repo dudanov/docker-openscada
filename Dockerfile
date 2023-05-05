@@ -70,12 +70,12 @@ RUN apk --no-cache add \
     done; \
     # Patching OpenSCADA for build with musl LibC
     cd /tmp/openscada \
-    #&& find . -name ieee754.h | while read fn; do \
-    #    sed \
-    #        -e 's/^__BEGIN_DECLS$/#ifdef __cplusplus\nextern "C" {\n#endif/g' \
-    #        -e 's/^__END_DECLS$/#ifdef __cplusplus\n}\n#endif/g' \
-    #        -i $fn; \
-    #done; \
+    && find . -name ieee754.h | while read fn; do \
+        sed \
+            -e 's/^__BEGIN_DECLS$/#ifdef __cplusplus\nextern "C" {\n#endif/g' \
+            -e 's/^__END_DECLS$/#ifdef __cplusplus\n}\n#endif/g' \
+            -i $fn; \
+    done; \
     #sed -e '/^#include <ldap\.h>$/i #include <sys/time.h>' -i ./src/moduls/bd/LDAP/mod_ldap.cpp; \
     #sed -e '/^#include <stdint\.h>$/a #include <sys/types.h>' -i ./src/tsys.h; \
     #sed -e '/optDescr();/{n;x;d;};x;1d;p;${x;p;}' -n -i ./src/moduls/daq/FT3/FT3_prt.h; \
