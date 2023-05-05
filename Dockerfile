@@ -82,7 +82,7 @@ RUN apk --no-cache add \
     #sed '/^#if !__GLIBC_PREREQ(2,4)$/ s/$/ || __MUSL__/' -i ./src/resalloc.h; \
     #sed '/^#if !__GLIBC_PREREQ(2,4)$/ s/$/ || __MUSL__/' -i ./src/resalloc.cpp; \
     # Building and installing OpenSCADA
-    && ./configure \
+    ./configure \
         --prefix=/app \
         --bindir=/app/bin \
         --libdir=/app/lib \
