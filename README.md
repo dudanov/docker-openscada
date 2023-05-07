@@ -28,9 +28,9 @@ or from GitHub Containers Registry:
 $ docker pull ghcr.io/dudanov/openscada:latest
 ```
 
-Example run command (start container `srv01-scada` with hostname `srv01` and project in `oscada_projects_volume/srv01` directory):
+Example run command (start container `srv01-scada` with project in `srv01_volume` docker volume):
 ```console
-$ docker run -d --name=srv01-scada --hostname=srv01 --restart=always -v oscada_projects_volume:/stations -p 6502:6502 dudanov/openscada:latest
+$ docker run -d --name=srv01-scada -v srv01_volume:/station dudanov/openscada:latest
 ```
 
 ## Environment variables
