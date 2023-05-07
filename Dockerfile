@@ -206,7 +206,8 @@ RUN apk --no-cache add \
         libssl3 \
         fftw-double-libs \
         libpng \
-        libjpeg-turbo
+        libjpeg-turbo \
+    && mkdir -p /station
 
 # Copy builded minimal libgd
 COPY --from=builder /usr/lib/libgd.so* /usr/lib/
