@@ -88,7 +88,7 @@ RUN apk --no-cache add \
         --libdir=/app/lib \
         --datadir=/app/share \
         --localedir=/app/locales \
-        --sysconfdir=/stations \
+        --sysconfdir=/app/etc \
         --disable-static \
         --disable-CoreLibVersion \
         --enable-LibGD \
@@ -217,9 +217,8 @@ ENV LANG=${LANG:-ru_RU.UTF-8}
 # Set timezone
 ENV TZ=${TZ:-Europe/Samara}
 
-VOLUME /stations
-WORKDIR /stations
-# Run OpenSCADA. Disable project locking (PID is always 1, with --init - 7). System messages to stdout and message archive.
-# Set project name to container hostname. Full path of the project (work) directory: "/stations/${HOSTNAME}".
-ENTRYPOINT /app/bin/openscada --projUserDir=/stations --projName=${HOSTNAME} --projLock=0 --log=10
-#ENTRYPOINT ["/app/bin/openscada", "--statName=station", "--config=/station/oscada.xml", "--projLock=0", "--log=10"]
+VOLUME /station
+WORKDIR /station
+# Run OpenSCADA. Disable project locking (PID is always 1). System messages to stdout and message archive.
+# Project (work) internal directory: "/station". Config file MUST BE "oscada.xml".
+ENTRYPOINT ["/app/bin/openscada", "--statName=station", "--config=/station/oscada.xml", "--projLock=0", "--log=10"]
