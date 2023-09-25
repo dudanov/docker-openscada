@@ -89,8 +89,7 @@ RUN apk --no-cache add \
         --datadir=/app/share \
         --localedir=/app/locales \
         --sysconfdir=/app/etc \
-        --disable-static \
-        --disable-CoreLibVersion \
+        --enable-CoreLibStatic \
         --enable-LibGD \
         --enable-SQLite=incl \
         --enable-MySQL \
