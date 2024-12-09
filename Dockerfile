@@ -1,4 +1,4 @@
-FROM alpine AS builder
+FROM alpine:3.20 AS builder
 
 #ARG CFLAGS="-g -D__MUSL__"
 ARG CFLAGS="-Os -DNODEBUG -fpic -ffunction-sections -Wl,--gc-sections -fno-asynchronous-unwind-tables -Wl,--strip-all"
@@ -185,7 +185,7 @@ RUN apk --no-cache add \
 COPY icons/ /app/share/openscada/icons/
 
 # Final image
-FROM alpine
+FROM alpine:3.20
 
 RUN apk --no-cache add \
         libstdc++ \
